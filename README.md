@@ -13,7 +13,7 @@ En la biblioteca de la universidad existen cubículos de estudio que se alquilan
 - Personal encargado de préstamos
 
 ## Solución propuesta
-Se desarrolló una página web en Vue.js para registrar el alquiler de cubículos de forma ordenada. El sistema permite ingresar el nombre del estudiante encargado, registrar tres carnets, seleccionar el cubículo, elegir el tiempo de alquiler y validar que los datos sean correctos antes de guardar el registro.
+Desarrollamos una página web en Vue.js para registrar el alquiler de cubículos de forma ordenada. El sistema permite ingresar el nombre del estudiante encargado, registrar tres carnets, seleccionar el cubículo, elegir el tiempo de alquiler y validar que los datos sean correctos antes de guardar el registro.
 
 ## Funciones del sistema
 - Registrar alquileres de cubículos
@@ -26,22 +26,22 @@ Se desarrolló una página web en Vue.js para registrar el alquiler de cubículo
 ## Preguntas
 
 ### ¿Qué es Vue.js y cuál es su función en la página?
-Vue.js es un framework de JavaScript para crear interfaces dinámicas. En mi proyecto se usó para manejar el formulario y mostrar los alquileres sin recargar la página.
+Vue.js es un framework de JavaScript para crear interfaces dinámicas. En nuestro proyecto lo usamos para manejar el formulario y mostrar los alquileres sin recargar la página.
 
-### ¿Qué variables reactivas utilizó y para qué sirven?
-Usé `encargado`, `carnet1`, `carnet2`, `carnet3`, `cubiculo`, `tiempo`, `alquileres`, `error` y `mostrarLista`. Sirven para guardar datos del formulario, los registros, los errores y controlar la vista.
+### ¿Qué variables reactivas utilizaron y para qué sirven?
+Usamos `encargado`, `carnet1`, `carnet2`, `carnet3`, `cubiculo`, `tiempo`, `alquileres`, `error` y `mostrarLista`. Estas variables nos sirven para guardar los datos del formulario, los registros, los errores y controlar la vista.
 
 ### ¿Cuál es la diferencia entre `v-bind` y `v-model`?
 `v-bind` enlaza atributos dinámicos en HTML. `v-model` conecta un input con una variable reactiva.
 
-### Mencione un ejemplo de evento usado
-Usé `@submit.prevent` para registrar alquileres y `@click` para eliminar registros o mostrar la lista.
+### Mencionen un ejemplo de evento usado
+Usamos `@submit.prevent` para registrar alquileres y `@click` para eliminar registros o mostrar la lista.
 
-### ¿Para qué utilizó `v-for`?
-Lo usé para recorrer el arreglo de alquileres y mostrar cada registro en pantalla.
+### ¿Para qué utilizaron `v-for`?
+Lo usamos para recorrer el arreglo de alquileres y mostrar cada registro en pantalla.
 
-### ¿En qué situación utilizó `v-if`?
-Lo usé para mostrar errores y para enseñar u ocultar la lista de alquileres según el estado de la aplicación.
+### ¿En qué situación utilizaron `v-if`?
+Lo usamos para mostrar errores y para enseñar u ocultar la lista de alquileres según el estado de la aplicación.
 
 ### ¿Cómo se realiza la validación y por qué es importante?
-La validación revisa que no haya campos vacíos, que los carnets tengan formato correcto y que no estén repetidos. Es importante para evitar datos incorrectos en el sistema.
+La validación revisa que no haya campos vacíos, que los carnets tengan formato correcto y que no estén repetidos. Esto es importante para evitar datos incorrectos en el sistema.
